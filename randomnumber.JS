@@ -1,5 +1,5 @@
 function numeroRandom(max) {
-  parseInt(Math.random() * max)
+  return parseInt(Math.random() * max)
 }
 let arr = []
 while(arr.length <= 20) {
